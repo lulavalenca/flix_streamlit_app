@@ -1,7 +1,34 @@
+# Ambiente virtual
 venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 .env
+
+# Compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração locais
+*.sqlite3
+*.log
+
+# Cache e histórico
 .DS_Store
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Outros arquivos grandes ou pessoais
+*.rar
+*.zip
+*.tar.gz
+*.pdf
+*.txt
+*.jpg
+*.png
+*.jpeg
